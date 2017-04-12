@@ -2,9 +2,10 @@ export GOROOT=/usr/local/go  # default installation
 export GOPATH=/Users/$(whoami)/Documents/go
 export GAEPATH=/Users/$(whoami)/Documents/google-cloud-sdk
 export MARVEL2=/Users/$(whoami)/Documents/marvel2
+export MONOPATH=/Library/Frameworks/Mono.framework/Versions/Current/bin/
 
 export PATH=/usr/local/bin/:$PATH
-export PATH=$GOROOT/bin:$GOPATH:$GOPATH/bin:$GAEPATH:$GAEPATH/bin:$PATH
+export PATH=$GOROOT/bin:$GOPATH:$GOPATH/bin:$GAEPATH:$GAEPATH/bin:$MONOPATH:$PATH
 
 export GOPATH=$GOPATH:$MARVEL2:$MARVEL2/go:$MARVEL2/go/src
 
