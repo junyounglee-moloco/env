@@ -1,0 +1,7 @@
+*
+!*/
+!./.gitignore
+!./.gitconfig
+!./.gitexcludes
+!./.bash_profile
+!./README.md
