@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Monokai",
+
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Consolas",
+    "editor.lineHeight": 16,
+
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+
+    "files.autoSave": "afterDelay",
+
+    "go.formatOnSave": false,
+    "go.gocodeAutoBuild": false,
+
+    "gitlens.codeLens.visibility": "auto"
+}
