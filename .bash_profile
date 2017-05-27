@@ -7,7 +7,7 @@ export MONOPATH=/Library/Frameworks/Mono.framework/Versions/Current/bin/
 export PATH=/usr/local/bin/:$PATH
 export PATH=$GOROOT/bin:$GOPATH:$GOPATH/bin:$GAEPATH:$GAEPATH/bin:$GAEPATH/platform/google_appengine:$MONOPATH:$PATH
 
-export GOPATH=$GOPATH:$MARVEL2:$MARVEL2/go:$MARVEL2/go/src:$MARVEL2/go/vendor/src
+export GOPATH=$GOPATH:$MARVEL2:$MARVEL2/go:$MARVEL2/go:$MARVEL2/go/vendor
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/junyoung/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/junyoung/Downloads/google-cloud-sdk/path.bash.inc'; fi
